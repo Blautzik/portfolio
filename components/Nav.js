@@ -40,7 +40,7 @@ const Nav = () => {
                     }}
                     className='w-1/2 flex justify-end items-center'>
                     <AiOutlineMail className='white h-8 w-8 md:h-6 md:w-6 fill-slate-100 mx-5' />
-                    <span className='text-lg font-mono hidden md:block'>Contacto</span>
+                    <span className='text-lg font-mono hidden md:block'>Contact me</span>
                 </motion.div>
             </div>
 

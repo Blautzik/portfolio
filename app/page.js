@@ -1,9 +1,4 @@
 'use client'
-import { AiFillExperiment, AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
-import { FaReact } from 'react-icons/fa';
-import { SiNextdotjs } from 'react-icons/si'
-import { motion } from 'framer-motion';
-import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Nav from '@/components/Nav';
 import HeroContainer from '@/components/HeroContainer';
@@ -15,37 +10,24 @@ export default function Home() {
   return (
     <>
     
+    <div className='snap-y snap-mandatory h-screen overflow-auto scroll-smooth '>
+    
     <Nav />
-
-    <div className='snap-y snap-mandatory h-screen overflow-auto '>
-
-
 
 
       <section className='snap-start'>
         <HeroContainer/>
       </section>
 
-      <section id='about' className='snap-start h-screen'>
+      <section id='about' className='snap-start h-screen flex justify-center'>
         <About />
       </section>
 
-      <section id='experience' className='snap-start h-screen'>
+      <section id='experience' className='snap-start h-screen '>
         <Experience/>
       </section>
 
-      <section id='experiences' className='snap-start h-screen'>
-        <Experience/>
-      </section>
-
-      <section id='experiences' className='snap-center'>
-        <Experience/>
-      </section>
-      
-      <section id='experiences' className='snap-center'>
-        <Experience/>
-      </section>
-
+    
   </div>
   </>
   )
