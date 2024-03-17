@@ -17,7 +17,7 @@ const Hero = () => {
 
     return (
         <>
-            <div className="animate-pulse-grow-slow w-2/12 md:w-2/12 max-w-xs rotate-180 translate-x- scale-15 relative flex before:absolute before:h-[20px] before:w-[80px] before: before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[80px] after:w-[140px] after:translate-x-1/3 after:bg-gradient-conic after:from-violet-200 after:via-fuchsia-500 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-fuchsia-800 before:dark:opacity-30 after:dark:from-purple-100 after:dark:via-[#c500b5] after:dark:opacity-20 before:lg:h-[360px] -z-10">
+            <div className="animate-pulse-grow-slow w-11/12 md:w-10/12 max-w-xs rotate-180 translate-x- scale-150 relative flex before:absolute before:h-[300px] before:w-[880px] before: before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[80px] after:w-[140px] after:translate-x-1/3 after:bg-gradient-conic after:from-violet-200 after:via-fuchsia-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-fuchsia-700 before:dark:opacity-10 after:dark:from-purple-900 after:dark:via-[#c500b5] after:dark:opacity-40 before:lg:h-[360px] -z-10">
             </div>
             <div className='flex justify-evenly items-center max-h-screen mb-24'>
 
